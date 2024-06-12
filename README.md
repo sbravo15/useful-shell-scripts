@@ -26,11 +26,15 @@ To use the `generate_file_structure.sh` script, follow these steps:
     cd path/to/your/repository
     ```
 
-2. **Ensure the Script is executable with the following command `chmod +x generate_file_structure.sh`
+2. **Make the Script Executable**: Ensure the script has execute permissions with the following command:
 
-    ![Navigate to the Directory](images/ss_generate_file_structure/1.EnsureTheScriptExecutable.png)
-   
-3. **Run the Script**: Use the following command to execute the script, replacing `<directory>` with the path to the directory you want to analyze:
+    ```sh
+    chmod +x generate_file_structure.sh
+    ```
+
+    ![Make the Script Executable](images/ss_generate_file_structure/1.EnsureTheScriptExecutable.png)
+
+3. **Run the Script**: Use the following command to execute the script, replacing `<directory>` with the path to the directory you want to analyze or using `.` to reference your current directory:
 
     ```sh
     ./scripts/generate_file_structure.sh <directory>
@@ -42,12 +46,17 @@ To use the `generate_file_structure.sh` script, follow these steps:
     ./scripts/generate_file_structure.sh sample_directory
     ```
 
+    ![Run the Script](images/ss_generate_file_structure/2.runthescript_currentdirectory.png)
+
 4. **View the Output**: After running the script, it will create a file named `file_structure.txt` in the current directory. This file contains the hierarchical structure of the specified directory.
+
+    ![Output Example](images/ss_generate_file_structure/Output.png)
 
 5. **Check the Debug Log**: The script also generates a `debug.log` file, which logs each directory and file processed during execution. This can be helpful for troubleshooting.
 
-### Example OUTPUT FILE STRUCTURE
-Here's an example of running the script on a directory named `sample_directory`:
+### Example
+In the example above, we used the [cookiecutter-flask repository](https://github.com/cookiecutter-flask/cookiecutter-flask) to demonstrate how to generate a text file containing the file structure. We recommend using your preferred visual editor to view the `.txt` file and examine the file structure.
 
-```sh
-./scripts/generate_file_structure.sh sample_directory
+We hope this script proves useful for debugging, documentation, and any other creative applications you can think of.
+
+
