@@ -12,7 +12,9 @@ A collection of useful shell scripts for various tasks.
 
 ## Generate File Structure
 
-This script maps and prints the file structure of a given directory into a text file. This makes it easier to analyze the directory structure for testing or documentation purposes.
+This script maps and prints the file structure of a given directory into a text file. It simplifies the process of analyzing the directory structure for testing or documentation purposes.
+
+[View Script](scripts/generate_file_structure.sh)
 
 ### Usage
 
@@ -20,4 +22,3 @@ To run the script, use the following command:
 
 ```sh
 ./scripts/generate_file_structure.sh <directory>
-
