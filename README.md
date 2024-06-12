@@ -28,7 +28,7 @@ To use the `generate_file_structure.sh` script, follow these steps:
 
 2. **Ensure the Script is executable with the following command `chmod +x generate_file_structure.sh`
 
-    ![Navigate to the Directory](ss_generate_file_structure/1.EnsureTheScriptExecutable.png)
+    ![Navigate to the Directory](images/ss_generate_file_structure/1.EnsureTheScriptExecutable.png)
    
 3. **Run the Script**: Use the following command to execute the script, replacing `<directory>` with the path to the directory you want to analyze:
 
