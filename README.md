@@ -26,7 +26,11 @@ To use the `generate_file_structure.sh` script, follow these steps:
     cd path/to/your/repository
     ```
 
-2. **Run the Script**: Use the following command to execute the script, replacing `<directory>` with the path to the directory you want to analyze:
+2. **Ensure the Script is executable with the following command `chmod +x generate_file_structure.sh`
+
+    ![Navigate to the Directory](ss_generate_file_structure/1.EnsureTheScriptExecutable.png)
+   
+3. **Run the Script**: Use the following command to execute the script, replacing `<directory>` with the path to the directory you want to analyze:
 
     ```sh
     ./scripts/generate_file_structure.sh <directory>
@@ -38,12 +42,11 @@ To use the `generate_file_structure.sh` script, follow these steps:
     ./scripts/generate_file_structure.sh sample_directory
     ```
 
-3. **View the Output**: After running the script, it will create a file named `file_structure.txt` in the current directory. This file contains the hierarchical structure of the specified directory.
+4. **View the Output**: After running the script, it will create a file named `file_structure.txt` in the current directory. This file contains the hierarchical structure of the specified directory.
 
-4. **Check the Debug Log**: The script also generates a `debug.log` file, which logs each directory and file processed during execution. This can be helpful for troubleshooting.
+5. **Check the Debug Log**: The script also generates a `debug.log` file, which logs each directory and file processed during execution. This can be helpful for troubleshooting.
 
-### Example
-
+### Example OUTPUT FILE STRUCTURE
 Here's an example of running the script on a directory named `sample_directory`:
 
 ```sh
